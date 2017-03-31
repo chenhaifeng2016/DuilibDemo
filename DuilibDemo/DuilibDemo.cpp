@@ -251,7 +251,7 @@ private:
 int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE /*hPrevInstance*/, LPSTR /*lpCmdLine*/, int nCmdShow)
 {
 	CPaintManagerUI::SetInstance(hInstance);
-	CPaintManagerUI::SetResourcePath(CPaintManagerUI::GetInstancePath() + _T("skin"));
+	CPaintManagerUI::SetResourcePath(_T("E:\\workspace\\windows\\DuilibDemo\\DuilibDemo\\skin"));
 	
 	//CPaintManagerUI::SetResourceZip(_T("360SafeRes.zip"));
 

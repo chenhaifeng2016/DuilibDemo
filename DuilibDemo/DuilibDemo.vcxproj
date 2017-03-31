@@ -155,6 +155,44 @@
     <ClInclude Include="ControlEx.h" />
     <ClInclude Include="StdAfx.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="skin\antivirus.png" />
+    <Image Include="skin\button_hover.png" />
+    <Image Include="skin\button_normal.png" />
+    <Image Include="skin\button_pushed.png" />
+    <Image Include="skin\cloud.png" />
+    <Image Include="skin\commmon.png" />
+    <Image Include="skin\examine_background.bmp" />
+    <Image Include="skin\firewall.png" />
+    <Image Include="skin\firewall_ok.png" />
+    <Image Include="skin\horizontal_border.bmp" />
+    <Image Include="skin\icon.ico" />
+    <Image Include="skin\icon.png" />
+    <Image Include="skin\logo.png" />
+    <Image Include="skin\navigationbar.bmp" />
+    <Image Include="skin\networkshield.png" />
+    <Image Include="skin\preventnumber.png" />
+    <Image Include="skin\scanbutton.png" />
+    <Image Include="skin\scrollbar.bmp" />
+    <Image Include="skin\softwaremanager.png" />
+    <Image Include="skin\start.png" />
+    <Image Include="skin\sys_dlg_close.png" />
+    <Image Include="skin\sys_dlg_max.png" />
+    <Image Include="skin\sys_dlg_menu.png" />
+    <Image Include="skin\sys_dlg_min.png" />
+    <Image Include="skin\sys_dlg_restore.png" />
+    <Image Include="skin\tabbar_hover.png" />
+    <Image Include="skin\tabbar_normal.png" />
+    <Image Include="skin\tabbar_pushed.png" />
+    <Image Include="skin\toolbar_hover.png" />
+    <Image Include="skin\toolbar_normal.png" />
+    <Image Include="skin\toolbar_pushed.png" />
+    <Image Include="skin\vertical_border.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="skin\ComputerExamine.xml" />
+    <Xml Include="skin\skin.xml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
